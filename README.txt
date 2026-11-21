@@ -1,17 +1,28 @@
-MY QUIT JOURNEY — WINDOWS
-1. Extract ZIP.
+MY QUIT JOURNEY — VERSI LEBIH AMAN
+
+MENJALANKAN DI WINDOWS
+1. Extract ZIP ke satu folder tetap (jangan sering dipindah-pindah).
 2. Buka folder My_Quit_Journey.
-3. Klik dua kali index.html (Chrome atau Edge).
-4. Klik ⚙ untuk mengatur tanggal/waktu mulai, pengeluaran rokok harian, dan alasan berhenti.
-5. Check-in setiap hari.
+3. Klik dua kali index.html di Chrome atau Edge.
+4. Atur tanggal mulai, uang harian, dan alasan berhenti.
+5. Check-in setiap hari. Data otomatis disimpan di browser/perangkat ini.
 
-LINK UNTUK PACAR:
-Versi simple ini tidak memakai server/database. Data pribadi disimpan di browser/perangkat.
-Tombol "Buat link untuk dilihat" membuat snapshot read-only di URL. Siapa pun yang memiliki link dapat melihat snapshot tersebut. Snapshot tidak update otomatis; buat link baru untuk progress terbaru.
-Agar pacar bisa membuka link dari perangkat lain, upload folder ini ke hosting statis seperti GitHub Pages atau Netlify terlebih dahulu. Jangan masukkan catatan sensitif ke link yang dibagikan.
+BACKUP / PEMULIHAN
+- Klik Unduh backup secara berkala dan simpan file JSON di tempat aman.
+- Jika pindah browser/perangkat atau data tidak muncul, klik Pulihkan backup dan pilih file JSON.
+- Jangan hapus data browser sebelum punya backup.
 
-BACKUP:
-Klik ⚙ > Ekspor data untuk menyimpan file JSON. Simpan backup secara berkala.
+UNTUK PACAR MELIHAT DARI HP
+1. Upload isi folder My_Quit_Journey ke hosting statis HTTPS, misalnya GitHub Pages.
+2. Buka alamat website HTTPS tersebut di perangkatmu.
+3. Setelah mengisi progres, tekan Buat link untuk dilihat lalu kirim link ke pacarmu.
+4. Link tersebut adalah snapshot read-only. Setiap ada progres baru, buat link baru dan kirim ulang.
 
-Catatan: penghitung berdasarkan tanggal/waktu yang kamu masukkan. Uang dihemat hanya estimasi. Check-in adalah catatan mandiri, bukan verifikasi medis. Jika suatu hari terpeleset, catat dengan jujur dan lanjutkan usaha.
-Teknologi: HTML, CSS, JavaScript murni. Tidak perlu install Node.js.
+PENTING
+- ZIP ini tidak menyediakan database cloud. Data utama tetap tersimpan di browser/perangkat yang kamu pakai.
+- Link snapshot bisa dibuka di perangkat lain hanya setelah website di-hosting online.
+- Siapa pun yang memiliki link dapat melihat ringkasan di dalamnya. Jangan masukkan informasi pribadi/sensitif.
+- Snapshot tidak live-update otomatis; link baru diperlukan untuk pembaruan.
+- Penghitung dan uang yang dihemat adalah estimasi berdasarkan tanggal dan angka yang kamu masukkan. Check-in adalah catatan mandiri, bukan verifikasi medis.
+
+Teknologi: HTML, CSS, JavaScript. Tidak perlu Node.js.
